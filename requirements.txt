@@ -1,0 +1,41 @@
+
+####  TASK---10   ######
+
+ 1, Using the Python PIP command create a "requirements.txt" file from the Terminal / command-Prompt of your system?
+
+
+    Certainly! To create a "requirements.txt" file using the terminal or command prompt,
+    you can use the following steps:
+
+    1, Open your terminal or command prompt.
+
+    2, Navigate to the directory where your Python project is located using the cd command.
+    For example:
+                    cd path/to/your/project
+
+    3, Run the following command to generate a basic "requirements.txt" file:
+    For example:
+
+                    pip freeze > requirements.txt
+
+    This command captures the currently installed Python packages and their versions in the "requirements.txt" file.
+
+    Now, you should see a file named "requirements.txt" in your project directory containing 
+    the list of packages and their versions. 
+    You can edit this file to specify the exact versions of the packages your project requires.
+
+2, Using the Python PIP command install the Flask module < 2.0 into your system ?
+ 
+    Certainly! To install a specific version of Flask (< 2.0) using the pip command,
+    you can use the following command in your terminal or command prompt:
+    For example:
+
+            pip install Flask<2.0
+
+    This command will install the latest version of Flask that is less than 2.0. If you want to install a specific version,
+    you can replace <2.0 with the desired version number.
+    For example:
+
+            pip install Flask==1.1.2
+
+    This command installs Flask version 1.1.2. Adjust the version number according to your requirements.
